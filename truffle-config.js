@@ -27,7 +27,7 @@
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
-const HDWalletProvider = require('truffle-hdwallet-provider');
+//const HDWalletProvider = require('truffle-hdwallet-provider');
 
 module.exports = {
   /**
@@ -53,12 +53,12 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
     },
 
-    rinkeby: {
-      provider: () => new HDWalletProvider("adult forward kiwi famous mistake soldier predict undo deal canyon craft crew", "https://rinkeby.infura.io/v3/722072edfd314fdc83ab9bca4aefa8ee"),
-        network_id: 4,       // rinkeby's id
-        gas: 4500000,        // rinkeby has a lower block limit than mainnet
-        gasPrice: 10000000000
-    },
+    //rinkeby: {
+    //  provider: () => new HDWalletProvider("adult forward kiwi famous mistake soldier predict undo deal canyon craft crew", "https://rinkeby.infura.io/v3/722072edfd314fdc83ab9bca4aefa8ee"),
+    //    network_id: 4,       // rinkeby's id
+    //    gas: 4500000,        // rinkeby has a lower block limit than mainnet
+    //    gasPrice: 10000000000
+    //},
 
     // Another network with more advanced options...
     // advanced: {
